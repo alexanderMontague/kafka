@@ -1,0 +1,3 @@
+[2020-02-03 01:43:29,004] INFO [Controller id=1] Processing automatic preferred replica leader election (kafka.controller.KafkaController)
+[2020-02-03 01:43:29,005] TRACE [Controller id=1] Checking need to trigger auto leader balancing (kafka.controller.KafkaController)
+[2020-02-03 01:43:29,007] DEBUG [Controller id=1] Preferred replicas by broker Map() (kafka.controller.KafkaController)

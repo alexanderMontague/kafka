@@ -1,0 +1,2 @@
+[2020-02-20 05:34:12,968] DEBUG [Controller id=1] Broker 2 was elected as controller instead of broker 1 (kafka.controller.KafkaController)
+org.apache.kafka.common.errors.ControllerMovedException: Controller moved to another broker. Aborting controller startup procedure

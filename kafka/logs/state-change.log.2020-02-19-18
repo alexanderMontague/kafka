@@ -1,0 +1,6 @@
+[2020-02-20 07:02:13,537] TRACE [Controller id=2 epoch=8] Received response {error_code=0} for request UPDATE_METADATA with correlation id 2 sent to broker localhost:9092 (id: 2 rack: null) (state.change.logger)
+[2020-02-20 07:02:13,548] TRACE [Controller id=2 epoch=8] Received response {error_code=0} for request UPDATE_METADATA with correlation id 3 sent to broker localhost:9092 (id: 2 rack: null) (state.change.logger)
+[2020-02-20 07:02:13,552] TRACE [Controller id=2 epoch=8] Received response {error_code=0} for request UPDATE_METADATA with correlation id 0 sent to broker localhost:9091 (id: 1 rack: null) (state.change.logger)
+[2020-02-20 07:02:14,176] TRACE [Controller id=2 epoch=8] Received response {error_code=0} for request UPDATE_METADATA with correlation id 1 sent to broker localhost:9091 (id: 1 rack: null) (state.change.logger)
+[2020-02-20 07:02:14,177] TRACE [Controller id=2 epoch=8] Received response {error_code=0} for request UPDATE_METADATA with correlation id 4 sent to broker localhost:9092 (id: 2 rack: null) (state.change.logger)
+[2020-02-20 07:02:14,184] TRACE [Controller id=2 epoch=8] Received response {error_code=0} for request UPDATE_METADATA with correlation id 0 sent to broker localhost:9090 (id: 0 rack: null) (state.change.logger)
