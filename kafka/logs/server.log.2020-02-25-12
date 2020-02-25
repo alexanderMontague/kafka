@@ -1,0 +1,5 @@
+[2020-02-25 14:58:27,835] WARN Client session timed out, have not heard from server in 4010ms for sessionid 0x10003f71851000e (org.apache.zookeeper.ClientCnxn)
+[2020-02-25 14:58:28,071] INFO Client session timed out, have not heard from server in 4010ms for sessionid 0x10003f71851000e, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2020-02-25 14:58:29,829] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2020-02-25 14:58:29,829] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2020-02-25 14:58:29,830] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x10003f71851000e, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)

@@ -1,25 +1,22 @@
-const kafka = require('kafka-node');
-const config = require('./config');
+const kafka = require("kafka-node");
+const config = require("./config");
 
 try {
   const Consumer = kafka.Consumer;
   const client = new kafka.KafkaClient(config);
   const kafkaTopic = config.kafkaTopic;
 
-  let consumer = new Consumer(
-    client,
-    [{ topic: kafkaTopic }]
-  );
+  let consumer = new Consumer(client, [{ topic: kafkaTopic }]);
 
-  consumer.on('message', async function(message) {
+  console.log("Consumer Ready...");
 
-    console.log(`kafka->[${kafkaTopic}] ${message.value}`);
-  })
+  consumer.on("message", async function(message) {
+    console.log(`kafka->[${kafkaTopic}] - #${message.offset} ${message.value}`);
+  });
 
-  consumer.on('error', function(err) {
+  consumer.on("error", function(err) {
     console.log(`error [${kafkaTopic}]`, err);
   });
-}
-catch(e) {
+} catch (e) {
   console.log(e);
 }
